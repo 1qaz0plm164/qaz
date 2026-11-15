@@ -45,3 +45,21 @@
 Репозиторий сменит владельца вместе с файлами, ветками и историей. [Инструкция GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository)
 
 Чтобы сохранить папку на компьютер, выбери нужную ветку → **Code → Download ZIP**, затем распакуй архив. Переписка находится в ветке `coderabbit/persistent-conversation-memory/55c085c5`. ZIP содержит файлы выбранной ветки без истории Git. [Справка GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
+
+Пользователь:
+а потом можно будет перенести этот архив на новый акк?
+
+Ассистент:
+Да, можно. Уточню шаги загрузки и сохраню этот разговор в репозитории.
+
+Ассистент:
+Да. Можно перенести **файлы** из ZIP на новый аккаунт:
+
+1. Распакуй ZIP на компьютере.
+2. Войди в новый аккаунт GitHub и создай новый репозиторий.
+3. На его странице нажми **uploading an existing file** или **Add file → Upload files**.
+4. Перетащи содержимое распакованной папки, включая вложенные папки и скрытые файлы, и нажми **Commit changes**. [Инструкция GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+
+Файлы появятся на новом аккаунте. История коммитов и другие ветки через ZIP не перенесутся. [Справка GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives)
+
+Чтобы в архив попала наша переписка, перед скачиванием выбери ветку `coderabbit/persistent-conversation-memory/55c085c5`.
