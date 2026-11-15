@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#3d4a3a"/>
+      <stop offset="0.5" stop-color="#1a1d16"/>
+      <stop offset="1" stop-color="#070807"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="0.7" y2="0.2">
+      <stop offset="0" stop-color="#ffe7a8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffe7a8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="fungus" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ead2a0"/>
+      <stop offset="0.55" stop-color="#b48a4f"/>
+      <stop offset="1" stop-color="#5e4020"/>
+    </radialGradient>
+    <radialGradient id="skin" cx="45%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#7f8467"/>
+      <stop offset="1" stop-color="#2c2f23"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="512" height="512" rx="96"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+    <polygon points="0,512 0,360 380,90 500,230 140,512" fill="url(#beam)"/>
+    <path d="M40 512 C70 405 165 372 256 372 C347 372 442 405 472 512 Z" fill="#11100d"/>
+    <path d="M200 400 L212 320 L300 320 L312 400 Z" fill="#26281d"/>
+    <ellipse cx="256" cy="282" rx="96" ry="104" fill="url(#skin)"/>
+    <!-- разинутая пасть -->
+    <path d="M206 318 Q256 300 306 318 Q300 378 256 384 Q212 378 206 318 Z" fill="#160807"/>
+    <g fill="#d9cfb0">
+      <polygon points="214,320 222,320 218,336"/><polygon points="230,314 240,313 235,333"/>
+      <polygon points="270,313 280,314 275,333"/><polygon points="290,320 298,320 294,336"/>
+      <polygon points="228,374 236,376 232,360"/><polygon points="276,376 284,374 280,360"/>
+    </g>
+    <!-- грибковые наросты -->
+    <circle cx="320.8" cy="272.3" r="19.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="182.2" cy="264.1" r="21.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="330.7" cy="255.9" r="17.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="214.1" cy="255.4" r="19.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="360.0" cy="254.1" r="19.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="198.0" cy="252.5" r="22.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="207.1" cy="249.9" r="25.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="187.1" cy="249.7" r="14.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="305.4" cy="247.6" r="29.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="313.9" cy="247.2" r="28.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="172.9" cy="246.4" r="12.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="294.9" cy="246.0" r="31.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="338.4" cy="245.0" r="24.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="207.3" cy="243.9" r="27.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="177.9" cy="242.7" r="26.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="308.1" cy="240.5" r="15.5" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="307.3" cy="239.9" r="17.7" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="318.2" cy="239.7" r="12.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="166.0" cy="239.3" r="17.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="321.6" cy="238.6" r="16.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="203.3" cy="237.7" r="24.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="194.5" cy="237.6" r="22.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="334.4" cy="236.0" r="20.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="220.1" cy="234.7" r="14.5" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="292.8" cy="232.8" r="14.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="310.0" cy="230.9" r="19.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="323.3" cy="230.8" r="26.5" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="177.5" cy="230.6" r="13.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="153.7" cy="229.9" r="22.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="203.4" cy="229.7" r="19.4" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="204.4" cy="227.4" r="25.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="171.0" cy="224.2" r="22.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="293.9" cy="222.2" r="14.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="212.4" cy="222.2" r="21.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="183.8" cy="222.0" r="21.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="291.3" cy="220.1" r="19.4" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="225.7" cy="218.5" r="22.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="201.4" cy="218.5" r="16.5" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="213.1" cy="215.9" r="29.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="303.6" cy="214.3" r="19.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="167.5" cy="212.7" r="23.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="321.4" cy="211.7" r="14.7" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="181.0" cy="210.4" r="13.6" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="176.4" cy="210.1" r="23.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="225.6" cy="210.1" r="15.9" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="291.2" cy="208.6" r="17.4" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="281.2" cy="208.5" r="14.7" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="221.0" cy="204.2" r="20.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="217.0" cy="201.0" r="12.4" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="172.3" cy="200.1" r="14.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="333.9" cy="199.0" r="19.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="286.0" cy="198.5" r="26.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="290.7" cy="196.8" r="24.4" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="204.2" cy="196.4" r="19.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="197.4" cy="195.7" r="13.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="207.4" cy="194.2" r="13.7" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="226.3" cy="192.7" r="17.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="338.7" cy="191.8" r="12.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="187.0" cy="190.6" r="22.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="296.3" cy="188.9" r="14.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="269.0" cy="188.3" r="25.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="240.7" cy="187.3" r="19.7" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="188.1" cy="185.3" r="18.5" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="270.6" cy="183.4" r="20.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="206.0" cy="182.7" r="26.1" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="296.8" cy="175.1" r="22.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="302.0" cy="172.6" r="13.0" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="229.9" cy="172.4" r="13.8" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="306.6" cy="171.4" r="13.3" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+<circle cx="201.6" cy="169.5" r="15.2" fill="url(#fungus)" stroke="#3a2610" stroke-width="3"/>
+    <circle cx="317.8" cy="265.9" r="4.4" fill="#4d3216" opacity="0.7"/>
+<circle cx="208.9" cy="252.3" r="4.2" fill="#4d3216" opacity="0.7"/>
+<circle cx="209.0" cy="245.1" r="5.7" fill="#4d3216" opacity="0.7"/>
+<circle cx="309.4" cy="239.9" r="6.4" fill="#4d3216" opacity="0.7"/>
+<circle cx="330.5" cy="253.0" r="5.3" fill="#4d3216" opacity="0.7"/>
+<circle cx="307.3" cy="244.8" r="3.4" fill="#4d3216" opacity="0.7"/>
+<circle cx="167.4" cy="233.9" r="3.9" fill="#4d3216" opacity="0.7"/>
+<circle cx="197.6" cy="244.0" r="4.9" fill="#4d3216" opacity="0.7"/>
+<circle cx="297.4" cy="230.4" r="3.3" fill="#4d3216" opacity="0.7"/>
+<circle cx="174.8" cy="234.4" r="2.9" fill="#4d3216" opacity="0.7"/>
+<circle cx="206.6" cy="227.9" r="5.7" fill="#4d3216" opacity="0.7"/>
+<circle cx="208.1" cy="221.4" r="4.8" fill="#4d3216" opacity="0.7"/>
+<circle cx="228.2" cy="215.1" r="5.0" fill="#4d3216" opacity="0.7"/>
+<circle cx="307.4" cy="220.6" r="4.2" fill="#4d3216" opacity="0.7"/>
+<circle cx="176.8" cy="206.0" r="3.0" fill="#4d3216" opacity="0.7"/>
+<circle cx="291.3" cy="214.2" r="3.8" fill="#4d3216" opacity="0.7"/>
+<circle cx="217.1" cy="198.9" r="2.7" fill="#4d3216" opacity="0.7"/>
+<circle cx="285.1" cy="201.3" r="5.7" fill="#4d3216" opacity="0.7"/>
+<circle cx="198.7" cy="197.0" r="2.9" fill="#4d3216" opacity="0.7"/>
+<circle cx="339.1" cy="194.9" r="2.7" fill="#4d3216" opacity="0.7"/>
+<circle cx="276.8" cy="185.1" r="5.5" fill="#4d3216" opacity="0.7"/>
+<circle cx="266.7" cy="179.7" r="4.4" fill="#4d3216" opacity="0.7"/>
+<circle cx="299.4" cy="175.9" r="2.9" fill="#4d3216" opacity="0.7"/>
+<circle cx="203.9" cy="165.9" r="3.3" fill="#4d3216" opacity="0.7"/>
+    <!-- трещина -->
+    <path d="M256 140 L250 190 L262 230 L254 290" stroke="#1a0f06" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <rect width="512" height="512" fill="url(#vig)"/>
+    <!-- прицел -->
+    <g stroke="#000" stroke-opacity="0.5" stroke-width="12" fill="none" stroke-linecap="round">
+      <circle cx="256" cy="262" r="168"/>
+      <line x1="256" y1="58" x2="256" y2="128"/><line x1="256" y1="396" x2="256" y2="466"/>
+      <line x1="46" y1="262" x2="116" y2="262"/><line x1="396" y1="262" x2="466" y2="262"/>
+    </g>
+    <g stroke="#ffb347" stroke-width="7" fill="none" stroke-linecap="round">
+      <circle cx="256" cy="262" r="168"/>
+      <line x1="256" y1="58" x2="256" y2="128"/><line x1="256" y1="396" x2="256" y2="466"/>
+      <line x1="46" y1="262" x2="116" y2="262"/><line x1="396" y1="262" x2="466" y2="262"/>
+    </g>
+    <circle cx="256" cy="262" r="8" fill="#ff2e1f" stroke="#000" stroke-opacity="0.5" stroke-width="3"/>
+    <g fill="#8e120d" opacity="0.9">
+      <circle cx="410" cy="92" r="16"/><circle cx="440" cy="126" r="8"/><circle cx="386" cy="64" r="6"/><circle cx="452" cy="80" r="4"/>
+      <circle cx="90" cy="440" r="11"/><circle cx="118" cy="466" r="5"/>
+    </g>
+  </g>
+  <rect x="4" y="4" width="504" height="504" rx="94" fill="none" stroke="#ffb347" stroke-opacity="0.3" stroke-width="6"/>
+</svg>

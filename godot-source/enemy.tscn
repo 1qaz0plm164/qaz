@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bmsphdx2lif5d"]
+
+[ext_resource type="Script" uid="uid://dwkt3115odf70" path="res://enemy.gd" id="1_7k104"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7xaro"]
+radius = 0.4
+height = 1.9
+
+[node name="Enemy" type="CharacterBody3D" unique_id=794594840]
+script = ExtResource("1_7k104")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=581776879]
+shape = SubResource("CapsuleShape3D_7xaro")
